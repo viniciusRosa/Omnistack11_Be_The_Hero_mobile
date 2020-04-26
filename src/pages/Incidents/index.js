@@ -32,7 +32,7 @@ export default function Incidents() {
                 keyExtractor={incident => String(incident)}
                 showsVerticalScrollIndicator={false}
                 renderItem={() => (
-                    <View style={styles.incident}>
+                <View style={styles.incident}>
                     <Text style={styles.incidentProperty}>ONG:</Text>
                     <Text style={styles.incidentValue}>APAD</Text>
 
